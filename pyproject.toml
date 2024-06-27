@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "genworlds"
+version = "0.1.0"
+description = ""
+authors = ["BladeY1 <1328370638@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+fastapi = "^0.110.1"
+uvicorn = "^0.29.0"
+websocket-client="1.5.1"
+websockets="11.0.3"
+colorama = "^0.4.6"
+colorlog = "^6.8.2"
+jsonschema = "^4.21.1"
+qdrant-client = "^1.8.2"
+langchain-community = "^0.0.31"
+langchain-core = "^0.1.40"
+langchain = "^0.1.14"
+langchain-experimental = "^0.0.56"
+openai = "^1.17.0"
+langchain-openai = "^0.1.2"
+python-dotenv = "^1.0.1"
+langchain-mistralai = "^0.1.2"
+kor = "^1.0.1"
+spacy = "^3.7.4"
+
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
