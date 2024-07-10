@@ -94,7 +94,7 @@ class SimulationMemory:
         self,
         openai_api_key: str,
         model_name: str = "llama3",
-        n_of_last_events: int = 5,
+        n_of_last_events: int = 7,
         n_of_similar_events: int = 5,
         n_of_paragraphs_in_summary: int = 5,
     ):

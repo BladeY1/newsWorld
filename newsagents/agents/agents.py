@@ -77,6 +77,27 @@ class NewsNetworkAgent(AbstractAgent):
     def add_memory_ignored_event(self, event_type: str):
         self.state_manager.state.memory_ignored_event_types.add(event_type)
 
+
+# Function to create agents from agent states
+def create_agents_from_states(agent_states: List[CustomAgentState]) -> List[NewsNetworkAgent]:
+    action_classes = []  # Define your action classes here if needed
+    
+    agents = []
+    for state in agent_states:
+        agent = NewsNetworkAgent(
+            openai_api_key="llama3",
+            name=state.name,
+            id=state.id,
+            description=state.description,
+            initial_agent_state=state,
+            action_classes=action_classes,
+            other_thoughts=[],
+            host_world_prompt=state.host_world_prompt,
+        )
+        agents.append(agent)
+    
+    return agents
+
     # def add_views(self):
     #     """Increment the views count for the agent and print the updated total."""
     #     self.views += 1

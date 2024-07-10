@@ -48,7 +48,7 @@ class AbstractAgent(AbstractObject):
                     state = self.state_manager.get_updated_state()
                     
                     sleep(0.5)
-                    sys.exit()
+
                     action_schema, trigger_event = self.action_planner.plan_next_action(
                         state
                     )

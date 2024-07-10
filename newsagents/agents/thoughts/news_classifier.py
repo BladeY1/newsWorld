@@ -58,12 +58,17 @@ class NewsClassifierThought(AbstractThought):
         prompt = ChatPromptTemplate.from_messages(
             [
                 (
+                    "system", "You are an AI assistant using the following retrieved context to fulfill human's request."
+                ),
+                (
                     "system", "The news content you have received is: {news_content}. "
                 ),
                 (
                     "system", "The news categories include: {news_category}. "
                 ),
-                ("human", "{footer}\n"),
+                (
+                    "human", "{footer}\n"
+                ),
             ]
         ).partial(schema=NewsClassifier.model_json_schema())
 
@@ -72,7 +77,7 @@ class NewsClassifierThought(AbstractThought):
             "news_category": news_categories,
             "footer": """
                 1. Based on the news content and news categories, analyze and infer which category the news belongs to and which country it is from, the category must appear in the context;
-                2. Answers should follow the following format:
+                2. Answers must follow the following format:
                     category: {news category}
                     country: {country abbreviation}
                     title: {news title}

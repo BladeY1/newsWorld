@@ -100,19 +100,12 @@ class ActionSchemaSelectorThought(AbstractThought):
             number = int(number_match.group(1).replace(',', '').strip()) if number_match else None
 
             # Extracting the new plan
-            new_plan_start = content.find("Updated plan:") + len("Updated plan:\n")
-            new_plan_end = content.find("Note:", new_plan_start)
-            if new_plan_end == -1:
-                new_plan_end = len(content)
-            new_plan_text = content[new_plan_start:new_plan_end].strip()
+            new_plan_match = re.search(r'Updated plan:\s*\[(.*?)\]', content, re.DOTALL)
+            new_plan_text = new_plan_match.group(1).strip() if new_plan_match else ""
             
-            # Extracting only the valid plan steps starting with a number
-            plan_lines = new_plan_text.split('\n')
-            new_plan = []
-            for line in plan_lines:
-                stripped_line = line.strip()
-                if re.match(r'^\d+\.', stripped_line):  # Match lines starting with a number followed by a dot
-                    new_plan.append(stripped_line)
+            # Extracting only the valid plan steps
+            plan_steps = re.findall(r'[\w]+', new_plan_text)
+            new_plan = [step.strip() for step in plan_steps]
             
             # No explicit new plan reason in the content, keeping it as None
             new_plan_reason = None
@@ -158,19 +151,19 @@ class ActionSchemaSelectorThought(AbstractThought):
 
         prompt = ChatPromptTemplate.from_messages(
             [
-                ("system", "You are {agent_name}, {agent_description}.\n"),
+                ("system", "You are {agent_name} using the following retrieved context to fulfill human's request, {agent_description}\n"),
                 (
                     "system",
                     "You are embedded in a simulated world with those properties {agent_world_state}\n",
                 ),
                 # ("system", "Those are your goals: \n{goals}\n"),
+                (
+                    "system",
+                    "And this is the previous plan: \n{plan}\n",
+                ),
                 # (
-                #     "system",
-                #     "And this is the previous plan to achieve the goals: \n{plan}\n",
-                # ),
-                # (
-                #     "system",
-                #     "Here is your memories of all the events that you remember from being in this simulation: \n{memory}\n",
+                #      "system",
+                #      "Here is your memories of all the events that you remember from being in this simulation: \n{memory}\n",
                 # ),
                 (
                     "system",
@@ -199,8 +192,8 @@ class ActionSchemaSelectorThought(AbstractThought):
             "agent_description": self.agent_state.description,
             "agent_world_state": self.agent_state.host_world_prompt,
             #"goals": self.agent_state.goals,
-            # "plan": self.agent_state.plan,
-            #"memory": self.agent_state.last_retrieved_memory,
+            "plan": self.agent_state.plan,
+            # "memory": self.agent_state.last_retrieved_memory,
             "available_actions": action_schemas_full_string,
             "emotions": self.agent_state.emotion,
             "attitudes": self.agent_state.attitude,
@@ -213,10 +206,10 @@ class ActionSchemaSelectorThought(AbstractThought):
             "category_description": category_description,
             "population_category": self.agent_state.population_category,
             "footer": """
-                1. Based on factors such as sentiment, attitude index, news content, your views, likes, comments, follows, shares, your attribute characteristics, and the number of groups, choose the next action. This action must be one of the available actions based on the previous context. Also, determine if this action is effective, and if not, explain why;
-                2. Ensure that the received (views, likes, shares, comments, follows) values ​​must satisfy the following formula to match the real world: views ≫ likes ≫ shares ≥ comments ≥ follows, and the value of views must always be the greatest. If any condition is not met, the corresponding available action is performed and the value is adjusted accordingly to match the formula;
-                3. Based on the total number of your crowd, infer how many people choose this action at this point in time. This value is much smaller than the total number of your crowd;
-                4. Answers should follow the following format:
+                1. Based on factors such as sentiment, attitude index, news content, your views, likes, comments, follows, shares, and your attribute characteristics. This action must be one of the available actions based on the previous context. Also, determine if this action is effective, and if not, explain why;
+                2. Based on the total number of your crowd, infer how many people choose this action at this point in time. This number should much smaller than the total number of your crowd and less than 500000;
+                3. To ensure the maximum value of views, you need to select AgentViewsNewsAndUpdateStateAction more and conform to the following formula to match the real world: views ≫ likes ≫ shares ≥ comments ≥ follows;
+                4. Answers must follow the following format:
                     Action: {Action name}
                     Validity: {True/False}
                     Reason (If validity is true): {reason}
@@ -224,9 +217,7 @@ class ActionSchemaSelectorThought(AbstractThought):
                     Updated plan: {List available actions with serial numbers}
                 """
         } #3. State a new updated plan that you want to execute to achieve your goals.
-        #2. If both the emotion and attitude values are 0, the next action must be AgentViewsNewsAndUpdateStateAction, otherwise it should be other available actions;
-        #print("action_schemas_full_string: ",action_schemas_full_string)
-        # 2. Before taking any other action (like, comment, share, or follow), you must view the news first (view count cannot be 0). Ensure that over multiple responses, all the following actions are performed in sequence: AgentViewsNewsAndUpdateStateAction, AgentLikesNewsAction, AgentCommentsOnNewsAction, AgentSharesNewsAction, and AgentFollowsNewsAction.
+        # Ensure that the received (views, likes, shares, comments, follows) values must satisfy the following formula to match the real world: views ≫ likes ≫ shares ≥ comments ≥ follows. If not, perform the appropriate available actions and adjust the values ​accordingly to match the formula;
 
         output_parser = StrOutputParser()
         chain = prompt | self.llm | output_parser

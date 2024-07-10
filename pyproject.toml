@@ -15,16 +15,25 @@ colorama = "^0.4.6"
 colorlog = "^6.8.2"
 jsonschema = "^4.21.1"
 qdrant-client = "^1.8.2"
-langchain-community = "^0.0.31"
-langchain-core = "^0.1.40"
-langchain = "^0.1.14"
-langchain-experimental = "^0.0.56"
+langchain = "^0.2.6"
+langchain-core = "^0.2.10"
+langchain-community = "^0.2.6"
 openai = "^1.17.0"
 langchain-openai = "^0.1.2"
 python-dotenv = "^1.0.1"
 langchain-mistralai = "^0.1.2"
 kor = "^1.0.1"
 spacy = "^3.7.4"
+langchain-experimental = "^0.0.62"
+langchain-text-splitters = "^0.2.2"
+langchain-chroma = "^0.1.2"
+bs4 = "^0.0.2"
+unstructured = {extras = ["md"], version = "^0.14.9"}
+sentence-transformers = "^3.0.1"
+ollama = "^0.2.1"
+
+
+
 
 
 

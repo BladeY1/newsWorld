@@ -125,7 +125,6 @@ class CustomActionPlanner(AbstractActionPlanner):
 
     # 代理根据接收到的新闻更新状态函数
     def update_agent_state_based_on_news(self, state_manager: CustomStateManager, event: AgentReceivesNewsEvent) -> CustomAgentState:
-        # 获取新闻内容
         news_content = event.news_content
          # call emotion_attitude_builder thought with the correct parameters
         self.lock.acquire()
@@ -138,7 +137,6 @@ class CustomActionPlanner(AbstractActionPlanner):
             self.lock.release()
         # 检查 emotions 和 attitudes 是否不为空
         if emotions and attitudes:
-            # 更新代理状态
             state_manager.state.emotion = emotions
             state_manager.state.attitude = attitudes
 

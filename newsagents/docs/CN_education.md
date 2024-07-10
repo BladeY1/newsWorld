@@ -1,0 +1,28 @@
+# Education Statistics for 2022
+
+## Students: 58,030,769
+
+1. **Postgraduates: 3,653,613**
+   - Doctor's Degree: 556,065
+   - Master's Degree: 3,097,548
+2. **Undergraduates: 19,656,436**
+3. **Vocational Undergraduate: 16,937,739**
+   - Bachelor's Degree: 228,740
+   - Associate Degree: 16,708,999
+4. **Adult Undergraduate: 9,336,481**
+   - Normal Courses: 5,277,598
+   - Specialized Courses: 4,058,883
+5. **Web-based Undergraduates: 8,446,500**
+   - Normal Courses: 3,419,642
+   - Short-cycle: 5,026,858
+
+## Teachers: 3,450,000
+
+1. **Educational Personnel: 2,870,866**
+   - Full-time Teachers: 2,005,188
+   - Administrative Personnel: 405,420
+   - Supporting Staff: 245,438
+   - Workers: 122,982
+   - Full-time Researchers: 50,600
+   - Other Agency Personnel: 41,238
+2. **Others: 579,134**
