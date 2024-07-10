@@ -2,6 +2,7 @@ import json
 import re
 
 import sys
+from time import sleep
 from typing import List, Optional
 from genworlds.agents.abstracts.thought import AbstractThought
 from newsagents.agents.custom_agent_state import CustomAgentState, PopulationCategory
@@ -84,7 +85,11 @@ class EmotionAttitudeBuilderThought(AbstractThought):
             # 构建输入提示
         prompt = ChatPromptTemplate.from_messages(
             [
-                ("system", "You are {agent_name}, {agent_description}."),
+                (
+                    "system", 
+                    "You are {agent_name}, {agent_description}\n"
+                    "Now you need to update your emotions and attitude."
+                ),
                 (
                     "system",
                     "You are situated within a simulated environment characterized by the following properties {agent_world_state}",
@@ -103,7 +108,7 @@ class EmotionAttitudeBuilderThought(AbstractThought):
                 ),
                 ("human", "{footer}"),
             ]
-        )
+        ).partial(schema=EmotionAttitudeResult.model_json_schema())
 
         input_context = {
             "agent_name": self.agent_state.name,
@@ -115,13 +120,13 @@ class EmotionAttitudeBuilderThought(AbstractThought):
             "emotions": self.agent_state.emotion,
             "attitudes": self.agent_state.attitude,
             "footer": """"
-            1. Based on the news content, your current emotions and attitudes state, attribute category, and category description, update emotions and attitudes to fill in the template;
-            2. Answers must follow the following format:
-                
+            1. Based on the news content, your current emotions and attitudes, attribute category, and category description, update your new emotions and attitudes to complete the template;
+            2. Your responses must follow this template:
+
                 emotions: {'happiness': (), 'sadness': (), 'anger': ()}
                 attitudes: {'optimism': (), 'pessimism': (), 'neutrality': ()}
-
-            3. Ensure all answers adhere to this template, filling in the () fields based on the contextual input.
+                reason: {reason}
+            3. Ensure all responses adhere to this template, filling in the () fields based on the contextual input.
             """
         }
         #          3. Simulate human reactions to news and reflect changes in various emotions and attitudes. Emotions must include happiness, sadness, and anger, and attitudes must include optimism, pessimism, and neutrality;
@@ -135,6 +140,7 @@ class EmotionAttitudeBuilderThought(AbstractThought):
         output_parser = StrOutputParser()
         chain = prompt | self.llm | output_parser
         response = chain.invoke(input_context)
+        print("emotion: ", response)
         response = parse_output(response)
         response = EmotionAttitudeResult.model_validate(response)
         print("emotion: ", response)
