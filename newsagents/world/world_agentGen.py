@@ -1,17 +1,17 @@
 import os
-from newsagents.agents.thoughts.news_classifier import NewsClassifierThought
+from time import sleep
+
 from newsagents.world.custom_world import CustomWorld
-from newsagents.agents.agents import NewsNetworkAgent
+from newsagents.agents.agents import NewsNetworkAgent, create_agents_from_states
 from newsagents.objects.news import NewsObject
 from newsagents.agents.custom_agent_state import (
     CustomAgentState,
-    PopulationCategory
+    PopulationCategory,
+    create_agent_states
 )
-from newsagents.events.events import AgentReceivesNewsEvent
-from newsagents.agents.custom_state_manager import CustomStateManager
-from newsagents.agents.custom_action_planner import CustomActionPlanner
-from newsagents.agents.thoughts.action_schema_selector import ActionSchemaSelectorThought
-from newsagents.world.world_map import World, get_world_for_category
+from newsagents.agents.thoughts.agent_bulider import AgentBuilderThought
+from newsagents.agents.thoughts.news_classifier import NewsClassifierThought
+from newsagents.world.world_map import NewsCategory, World, get_world_for_category
 from dotenv import load_dotenv
 
 
@@ -20,6 +20,11 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 
 
 news_classifier = NewsClassifierThought(
+    openai_api_key=openai_api_key,
+    model_name="llama3",
+)
+
+agent_builder = AgentBuilderThought(
     openai_api_key=openai_api_key,
     model_name="llama3",
 )
@@ -40,14 +45,37 @@ The incident has raised concerns about academic integrity and the treatment of w
 
 For more details on the investigation and its implications, stay tuned for further updates.""",
     publisher_id="publisher_1",
-    category="Education",
+    category=NewsCategory.Education,
     publish_time="2024-04-17"
 )
 
-category, country = news_classifier.run(news.content)
+news2 = NewsObject(
+    id="news_2",
+    title="Female students from technical secondary school enter finals of global mathematics competition",
+    content="""Reported on June 13, recently, Jiang Ping, a 17-year-old girl from Huai'an, Jiangsu Province, received good news. She entered the finals of the mathematics competition with a global ranking of 12, becoming the first secondary school student to enter the finals in the history of the competition. The list of finalists announced by the organizing committee shows that most of the 801 contestants who advanced this time are from famous universities such as Tsinghua University, Peking University, MIT, and Cambridge. It is understood that Jiang Ping's major is fashion design, but she is very obsessed with mathematics. She has always insisted on self-study in her spare time and has spent 2 years self-studying partial differential equations. It has triggered intense discussions and received support from many senior mathematical predecessors.
+On June 14, Jiang Ping interviewed earlier that she wanted to apply for Zhejiang University. Zhejiang University responded to whether Jiang Ping could be admitted as an exception: it involves the corresponding process and cannot be answered for the time being.
+After June 17, a large number of netizens questioned. Some people dug up what seemed to be Jiang Ping's test scores and questioned why Jiang Ping's previous scores were not outstanding, but she suddenly achieved amazing results in this competition; some people questioned that in some promotional photos, Jiang Ping's blackboard writing seemed to have errors; some people said that the competition was open-book and the results were the result of Jiang Ping cheating.
+On June 27, it was true that Jiang Ping, a student at Lianshui Secondary Vocational School, scored 83 points in the monthly math test. A large number of netizens believed that this proved that Jiang Ping cheated in the Alibaba math competition.
+    """,
+    publisher_id="publisher_2",
+    category=NewsCategory.Education,
+    publish_time="2024-06-14"
 
-print(category, country)
+)
+   
 
+
+category, country = news_classifier.run(news2.content)
+sleep(0.5)
+agents = agent_builder.run(category, country)
+
+agent_states = create_agent_states(agents)
+
+# 创建代理并运行他们的 think_n_do 函数
+agents = create_agents_from_states(agent_states)
+
+# student_group_agent.add_wakeup_event(event_class=AgentReceivesNewsEvent)
+# teacher_group_agent.add_wakeup_event(event_class=AgentReceivesNewsEvent)
 # 定义动作列表
 action_classes = [
     # AgentCommentsOnNewsAction,
@@ -55,112 +83,6 @@ action_classes = [
     # AgentLikesNewsAction,
     # AgentSharesNewsAction
 ]
-
-# 创建学生代理的初始状态
-student_initial_state = CustomAgentState(
-    id="student_root",
-    name="Student Group",
-    description="Representing 57 million Chinese students, reflecting their emotions, attitudes and possible actions in response to the news",
-    host_world_prompt="Academic Social Network",
-    simulation_memory_persistent_path = "newsworld/newsagents/agents/memories",
-    memory_ignored_event_types=set(),
-    wakeup_event_types=[],
-    action_schema_chains=[],
-    goals=[
-        # "Create new agents representing undergraduate, graduate, and doctoral students from various disciplines.",
-        "According to the group you belong to and the characteristics of the group, capture the different views and reactions of students from different backgrounds, titles, and majors to news events.",
-        "Participate in discussions and debates on current affairs and express your attitudes and emotions towards news reports.",
-        "According to the group's emotions and attitudes, take interactive actions such as sharing, commenting, liking, and following related news content."
-    ],
-    plan=[],
-    last_retrieved_memory="",
-    other_thoughts_filled_parameters={},
-    available_action_schemas = {
-        "Agent_Likes_News_Action_schemas": "AgentLikesNewsAction",
-        "Agent_Shares_News_Action_schemas": "AgentSharesNewsAction",
-        "Agent_Comments_On_News_Action_schemas": "AgentCommentsOnNewsAction",
-        "Agent_Follows_NewsAction_schemas": "AgentFollowsNewsAction",
-        #"News_Propagation_Action_schemas": "NewsPropagationAction"
-    },
-    available_entities=[],
-    is_asleep=False,
-    current_action_chain=[],
-    emotion={
-        "happiness": 0.0, "sadness": 0.0, "anger": 0.0
-    },  
-    attitude={
-        "optimism": 0.0, "pessimism": 0.0, "neutrality": 0.0
-    },  
-    population_category = PopulationCategory.SUSCEPTIBLE,
-    #is_planning=False
-    news_content=[]
-)
-
-# 创建老师代理的初始状态
-teacher_initial_state = CustomAgentState(
-    id="teacher_root",
-    name="Teacher Group",
-    description="Representing 3.5 million Chinese teachers, reflecting their emotions, attitudes and possible actions in response to the news",
-    host_world_prompt="Academic Social Network",
-    simulation_memory_persistent_path = "newsworld/newsagents/agents/memories",
-    memory_ignored_event_types=set(),
-    wakeup_event_types=[],
-    action_schema_chains=[],
-    goals=[
-        # "Generate new agents representing educators from different disciplines and educational levels.",
-        "According to the group you belong to and its characteristics, capture the different views and reactions of teachers with different backgrounds, titles, and majors to news events.",
-        "Participate in discussions and debates on current affairs and express your attitudes and emotions towards news reports.",
-        "According to the group's emotions and attitudes, take interactive actions such as sharing, commenting, liking, and following relevant news content."
-    ],
-    plan=[],
-    last_retrieved_memory="",
-    other_thoughts_filled_parameters={},
-    available_action_schemas = {
-        "Agent_Likes_News_Action_schemas": "AgentLikesNewsAction",
-        "Agent_Shares_News_Action_schemas": "AgentSharesNewsAction",
-        "Agent_Comments_On_News_Action_schemas": "AgentCommentsOnNewsAction",
-        "Agent_Follows_NewsAction_schemas": "AgentFollowsNewsAction",
-       # "News_Propagation_Action_schemas": "NewsPropagationAction"
-    },
-    available_entities=[],
-    is_asleep=False,
-    current_action_chain=[],
-    emotion={
-        "happiness": 0.0, "sadness": 0.0, "anger": 0.0
-    },  
-    attitude={
-        "optimism": 0.0, "pessimism": 0.0, "neutrality": 0.0
-    },  
-    population_category = PopulationCategory.CALM,
-    # is_planning=False
-    news_content=[]
-)
-
-# 创建学生和老师代理并运行他们的 think_n_do 函数
-student_group_agent = NewsNetworkAgent(
-    openai_api_key="llama3",
-    name="Student Group",
-    id="student_root",
-    description="Reflecting student groups' reaction to the news",
-    initial_agent_state=student_initial_state,
-    action_classes=action_classes,
-    other_thoughts=[],
-    host_world_prompt="Academic Social Network",
-)
-teacher_group_agent = NewsNetworkAgent(
-    openai_api_key="llama3",
-    name="Teacher Group",
-    id="teacher_root",
-    description="Reflecting teacher groups' reaction to the news",
-    initial_agent_state=teacher_initial_state,
-    action_classes=action_classes,
-    other_thoughts=[],
-    host_world_prompt="Academic Social Network",
-)
-
-# student_group_agent.add_wakeup_event(event_class=AgentReceivesNewsEvent)
-# teacher_group_agent.add_wakeup_event(event_class=AgentReceivesNewsEvent)
-
 world = get_world_for_category(category)
 # 创建一个名为NewsAgentsWorld的世界实例
 NewsAgentsWorld = CustomWorld(
@@ -168,8 +90,8 @@ NewsAgentsWorld = CustomWorld(
     description=world.description,
     id=world.id,
     actions=action_classes,
-    objects=[news],
-    agents=[student_group_agent, teacher_group_agent]
+    objects=[news2],
+    agents=agents
 )
 
 # 启动世界
