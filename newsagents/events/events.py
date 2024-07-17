@@ -41,6 +41,10 @@ class AgentFollowsNewsEvent(NewsEvent):
     description: str = "An agent follows a piece of news."
     temp_number: int
 
+class AgentPredictsResultsEvent(NewsEvent):
+    event_type: str = "agent_predicts_results_event"
+    description: str = "An agent predicts the outcome of this election based on current news and the results of the last election."
+
 
 # 定义动作
 class AgentViewsNewsAndUpdateStateAction(AbstractAction):
@@ -70,6 +74,28 @@ class AgentViewsNewsAndUpdateStateAction(AbstractAction):
         self.logger.info(f"Agent {self.host_object.id} updates state based on news {event.news_id}: {updated_emotion_and_attitude.emotion, updated_emotion_and_attitude.attitude}")
         print(f"Agent {self.host_object.id} updates state based on news {event.news_id}: {updated_emotion_and_attitude.emotion, updated_emotion_and_attitude.attitude}")
 
+class AgentPredictsResultsAction(AbstractAction):
+    trigger_event_class = AgentViewsNewsAndUpdateStateEvent
+    description: str = "An agent predicts the outcome of this election."
+
+    def __init__(self, host_object):
+        super().__init__(host_object)
+        self.logger = LoggingFile.get_logger(self.__class__.__name__)
+
+    def __call__(self, event: AgentViewsNewsAndUpdateStateEvent):
+        predict_election_res = self.host_object.action_planner.predict_election_result(event)
+        event =  AgentPredictsResultsEvent(
+                sender_id=self.host_object.id,
+                target_id=event.target_id,
+                news_id=event.news_id,
+                news_content=event.news_content,
+                comment_content=event.comment_content
+            )
+        self.host_object.send_event(event)
+        self.host_object.state_manager.memory.add_event(event.model_dump_json(), summarize=True)
+
+        print(f"Agent {self.host_object.id} predicts {predict_election_res} to win the election")
+        self.logger.info(f"Agent {self.host_object.id} predicts {predict_election_res} to win the election")
 
 class AgentLikesNewsAction(AbstractAction):
     trigger_event_class = AgentHasUpdatedStateBasedOnNewsEvent
@@ -192,3 +218,5 @@ class AgentFollowsNewsAction(AbstractAction):
 
         self.logger.info(f"Agent {self.host_object.id} follows news {event.news_id}: {event.news_content}")
         print(f"Agent {self.host_object.id} follows news {event.news_id}: {event.news_content}")
+
+

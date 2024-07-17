@@ -81,11 +81,11 @@ class AgentBuilderThought(AbstractThought):
                 markdown_content = file.read()
 
         parsed_result = parse_document(markdown_content)
-        level4_data = extract_level(parsed_result, 4)
+        #level4_data = extract_level(parsed_result, 4)
         level3_data = extract_level(parsed_result, 3)
         level2_data = extract_level(parsed_result, 2)
-        level_data = level2_data + level3_data + level4_data
-        all_data = result_to_string(parsed_result)
+        # level_data = level2_data + level3_data
+        # all_data = result_to_string(parsed_result)
 
 
         prompt_template = ChatPromptTemplate.from_messages(
@@ -112,7 +112,7 @@ class AgentBuilderThought(AbstractThought):
         input_context = {
             "category": category,
             "country": country,
-            "documents": level3_data,
+            "documents": level2_data,
             "footer": """
                 1. Based on the category and country of the news and the relevant groups of the news, select all groups in a certain level of the relevant groups to fill in the agent template;
                 2. Answers must follow the following format:

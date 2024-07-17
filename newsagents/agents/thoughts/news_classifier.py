@@ -33,7 +33,7 @@ class NewsClassifierThought(AbstractThought):
         )
         self.logger = LoggingFile.get_logger(self.__class__.__name__)
 
-    def run(self, news_content):
+    def run(self, news_content, news_category: NewsCategory):
         class NewsClassifier(BaseModel):
             """A model for classifying news articles including their category and country of origin."""
             category: NewsCategory = Field(..., description="The category of the news article")
@@ -42,6 +42,9 @@ class NewsClassifierThought(AbstractThought):
             keywords: Optional[List[str]] = Field(None, description="A list of keywords associated with the news article")
 
         def extract_news_metadata(news_text):
+            if not news_text.strip():  # Check if news_text is empty or contains only whitespace
+                return {"category": news_category, "country": "US"}
+    
             # Extracting the relevant parts from the given text
             category_line = [line for line in news_text.split('\n') if line.startswith('category:')][0]
             country_line = [line for line in news_text.split('\n') if line.startswith('country:')][0]
@@ -82,6 +85,7 @@ class NewsClassifierThought(AbstractThought):
                     country: {country abbreviation}
                     title: {news title}
                     keywords: {keywords}
+                3. Ensure all answers adhere to this template
                 """
         } 
 

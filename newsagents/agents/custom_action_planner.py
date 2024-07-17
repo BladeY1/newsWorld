@@ -7,7 +7,8 @@ from typing import List, Dict, Any, Tuple
 from genworlds.agents.abstracts.action_planner import AbstractActionPlanner
 from genworlds.agents.abstracts.thought import AbstractThought
 from genworlds.events.abstracts.event import AbstractEvent, NewsEvent
-from newsagents.events.events import AgentReceivesNewsEvent
+from newsagents.agents.thoughts.election_result_builder import ElectionResultBuilderThought
+from newsagents.events.events import AgentReceivesNewsEvent, AgentViewsNewsAndUpdateStateEvent
 from newsagents.agents.custom_agent_state import CustomAgentState 
 from newsagents.agents.custom_agent_state import (
     CustomAgentState,
@@ -50,7 +51,13 @@ class CustomActionPlanner(AbstractActionPlanner):
             agent_state=initial_agent_state,
             model_name=model_name,
         )
-        other_thoughts = other_thoughts
+        election_result_builder = ElectionResultBuilderThought(
+            openai_api_key=openai_api_key,
+            agent_state=initial_agent_state,
+            model_name=model_name,
+        )
+        # other_thoughts = other_thoughts
+        other_thoughts = election_result_builder
         super().__init__(
             action_schema_selector,
             event_filler,
@@ -141,3 +148,14 @@ class CustomActionPlanner(AbstractActionPlanner):
             state_manager.state.attitude = attitudes
 
         return state_manager.state
+    
+    def predict_election_result(self, event: AgentViewsNewsAndUpdateStateEvent) -> str:
+        news_content = event.news_content
+         # call emotion_attitude_builder thought with the correct parameters
+        self.lock.acquire()
+        try:   
+            election_result = self.host_agent.action_planner.other_thoughts.run(news_content)  # gives
+        finally:
+            self.lock.release()
+
+        return election_result

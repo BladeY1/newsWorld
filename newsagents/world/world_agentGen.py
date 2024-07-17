@@ -1,6 +1,7 @@
 import os
 from time import sleep
 
+from newsagents.agents.thoughts.agent_bulider_large import AgentsBuilderThought
 from newsagents.world.custom_world import CustomWorld
 from newsagents.agents.agents import NewsNetworkAgent, create_agents_from_states
 from newsagents.objects.news import NewsObject
@@ -25,6 +26,11 @@ news_classifier = NewsClassifierThought(
 )
 
 agent_builder = AgentBuilderThought(
+    openai_api_key=openai_api_key,
+    model_name="llama3",
+)
+
+agents_builder = AgentsBuilderThought(
     openai_api_key=openai_api_key,
     model_name="llama3",
 )
@@ -62,20 +68,56 @@ On June 27, it was true that Jiang Ping, a student at Lianshui Secondary Vocatio
     publish_time="2024-06-14"
 
 )
-   
 
+news3 = NewsObject(
+    id="news_3",
+    title="Biden and Trump to Run for the 60th U.S. Presidential Election in 2024",
+    content="""June 27, 2024: At 9 p.m., Biden and Trump participated in the first major televised debate hosted by CNN in Atlanta, Georgia. Many domestic and foreign media criticized Biden's performance, noting concerns about his health and judgment. This sparked discussions within the Democratic Party about whether Biden should step aside for another candidate.
 
-category, country = news_classifier.run(news2.content)
+Following the debate: Biden's team launched a series of campaign activities to reassure supporters, stating their commitment to his candidacy. Former President Obama and former Secretary of State Hillary Clinton reiterated their support for Biden. ABC News reported that Biden failed to demonstrate his capability to serve another term. New York Times columnist Thomas Friedman suggested Biden should withdraw in favor of Vice President Kamala Harris or other potential candidates.
+
+July 13, 2024: At 6:11 p.m., former President Donald Trump was shot by an American man during a rally at the Butler Farm Show Grounds in Butler, Pennsylvania. Although not seriously injured, Trump's right ear was grazed by an unknown object. Bloodied, he stood up under the protection of Secret Service bodyguards, raised his fist, and shouted “Fight! Fight! Fight!” three times, eliciting cheers and chants of “U-S-A!” from the crowd. This iconic moment was featured on the cover of Time magazine on July 14. Trump was taken to the hospital in stable condition and flew to New Jersey that evening.
+
+July 14, 2024: Elon Musk expressed his full support for Trump and wished him a speedy recovery.
+
+July 15, 2024: U.S. House Speaker Mike Johnson, a Republican, officially announced at the Republican National Convention the nomination of Donald Trumpas the Republican candidates for President.
+    """,
+    publisher_id="publisher_3",
+    category=NewsCategory.POLITICAL,
+    publish_time="2024-06-28"
+
+)
+
+new4 = NewsObject(
+    id="news_4",
+    title="Japan dumps nuclear waste into Pacific Ocean",
+    content="""August 24, 2023: The Japanese government decided to begin discharging treated radioactive wastewater from the Fukushima Daiichi Nuclear Power Plant into the Pacific Ocean. This wastewater, exceeding one million tons, had been contaminated with radioactive nuclides. Under the approval of the Japanese government and the supervision of the International Atomic Energy Agency (IAEA), the radioactive water is being filtered and diluted before gradually being released into the ocean. The entire discharge plan is expected to span at least 30 years.
+
+Background: The issue began with the Fukushima Daiichi Nuclear Power Plant disaster caused by the Great East Japan Earthquake on March 11, 2011. A massive tsunami damaged the plant's cooling systems, leading to the meltdown of three reactors and leaving behind molten nuclear fuel debris. Continuous pumping of seawater into the reactors was required to cool the melted fuel, resulting in a large amount of nuclide-contaminated cooling water. Chemical explosions during the disaster also led to the release of radioactive materials into the atmosphere and the Pacific Ocean. As of March 2023, the plant had accumulated 1.25 million tons of radioactive wastewater, with the volume still increasing.
+
+Storage and Treatment: Since the accident, the plant has stored the contaminated cooling water in tanks and used the Advanced Liquid Processing System (ALPS) to remove radioactive substances, except tritium and carbon-14. With the increasing volume of stored water, the plant faced storage capacity issues. The Japanese authorities discussed wastewater disposal options for years to advance the plant's decommissioning.
+
+Government Approval: In April 2021, the Japanese Cabinet approved the plan to discharge ALPS-treated wastewater into the Pacific Ocean. The authorities stated that tritium and carbon-14, which ALPS cannot remove, would be diluted to safe levels. In July 2023, the IAEA released a comprehensive safety review, concluding that the discharge met international safety standards and posed negligible risks to humans and the environment.
+
+Post-Discharge Monitoring: After the discharge began on August 24, 2023, the IAEA conducted independent sampling and measurement of seawater near the plant, confirming that tritium levels were within safe limits.
+
+International Reactions: The discharge of radioactive wastewater has sparked a range of international responses.
+    """,
+    publisher_id="publisher_4",
+    category=NewsCategory.SOCIAL,
+    publish_time="2023-08-24"
+
+)
+
+category, country = news_classifier.run(news3.content, news3.category)
 sleep(0.5)
-agents = agent_builder.run(category, country)
+agents = agents_builder.run(category, country)
 
 agent_states = create_agent_states(agents)
 
 # 创建代理并运行他们的 think_n_do 函数
 agents = create_agents_from_states(agent_states)
 
-# student_group_agent.add_wakeup_event(event_class=AgentReceivesNewsEvent)
-# teacher_group_agent.add_wakeup_event(event_class=AgentReceivesNewsEvent)
 # 定义动作列表
 action_classes = [
     # AgentCommentsOnNewsAction,
@@ -90,7 +132,7 @@ NewsAgentsWorld = CustomWorld(
     description=world.description,
     id=world.id,
     actions=action_classes,
-    objects=[news2],
+    objects=[news3],
     agents=agents
 )
 

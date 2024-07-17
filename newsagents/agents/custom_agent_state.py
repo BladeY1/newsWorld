@@ -84,7 +84,7 @@ def create_agent_states(agents: List[AgentBuilder]) -> List[CustomAgentState]:
             current_action_chain=[],
             emotion={"happiness": 0.0, "sadness": 0.0, "anger": 0.0},
             attitude={"optimism": 0.0, "pessimism": 0.0, "neutrality": 0.0},
-            population_category=PopulationCategory.SUSCEPTIBLE,
+            population_category=PopulationCategory.AVERAGE,
             news_content=[]
         ) for agent in agents
     ]
