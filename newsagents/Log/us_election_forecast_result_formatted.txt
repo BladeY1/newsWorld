@@ -1,0 +1,35 @@
+Alaska 阿拉斯加州 Trump
+Arizona 亚利桑那州 中立
+California 加利福尼亚州 中立
+Delaware 特拉华州 Biden
+Florida 佛罗里达州 Trump
+Georgia 乔治亚州 Biden
+Hawaii 夏威夷州 Biden
+Idaho 爱达荷州 Trump
+Illinois 伊利诺伊州 Biden
+Indiana 印第安纳州 Trump
+Kansas 堪萨斯州 Trump
+Maine 缅因州 Biden
+Massachusetts 马萨诸塞州 Biden
+Michigan 密歇根州 Trump
+Mississippi 密西西比州 Trump
+Montana 蒙大拿州 Trump
+Nebraska 内布拉斯加州 Trump
+New Hampshire 新罕布什尔州 中立
+New Jersey 新泽西州 Biden
+New Mexico 新墨西哥州 中立
+New York 纽约州 Trump
+North Carolina 北卡罗来纳州 Trump
+North Dakota 北达科他州 中立
+Ohio 俄亥俄州 中立
+Pennsylvania 宾夕法尼亚州 Biden
+Rhode Island 罗德岛州 Biden
+South Dakota 南达科他州 Trump
+Tennessee 田纳西州 Trump
+Texas 德克萨斯州 Trump
+Vermont 佛蒙特州 Biden
+Virginia 弗吉尼亚州 中立
+Washington 华盛顿州 Biden
+West Virginia 西弗吉尼亚州 Trump
+Wyoming 怀俄明州 Trump
+Washington D.C. 华盛顿特区 中立

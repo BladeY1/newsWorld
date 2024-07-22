@@ -25,30 +25,31 @@
 21. **Pennsylvania: Biden**
 22. **Michigan: Biden**
 23. **Arizona: Biden**
-24. **Nevada: Biden**
-25. **Georgia: Biden**
-26. **Texas: Trump**
-27. **Florida: Trump**
-28. **Ohio: Trump**
-29. **North Carolina: Trump**
-30. **Iowa: Trump**
-31. **Tennessee: Trump**
-32. **Indiana: Trump**
-33. **Missouri: Trump**
-34. **South Carolina: Trump**
-35. **Alabama: Trump**
-36. **Louisiana: Trump**
-37. **Kentucky: Trump**
-38. **Oklahoma: Trump**
-39. **Utah: Trump**
-40. **Kansas: Trump**
-41. **Mississippi: Trump**
-42. **Arkansas: Trump**
-43. **Nebraska: Trump**
-44. **Idaho: Trump**
-45. **West Virginia: Trump**
-46. **Montana: Trump**
-47. **South Dakota: Trump**
-48. **North Dakota: Trump**
-49. **Alaska: Trump**
-50. **Wyoming: Trump**
+24. **Wisconsin: Biden**
+25. **Nevada: Biden**
+26. **Georgia: Biden**
+27. **Texas: Trump**
+28. **Florida: Trump**
+29. **Ohio: Trump**
+30. **North Carolina: Trump**
+31. **Iowa: Trump**
+32. **Tennessee: Trump**
+33. **Indiana: Trump**
+34. **Missouri: Trump**
+35. **South Carolina: Trump**
+36. **Alabama: Trump**
+37. **Louisiana: Trump**
+38. **Kentucky: Trump**
+39. **Oklahoma: Trump**
+40. **Utah: Trump**
+41. **Kansas: Trump**
+42. **Mississippi: Trump**
+43. **Arkansas: Trump**
+44. **Nebraska: Trump**
+45. **Idaho: Trump**
+46. **West Virginia: Trump**
+47. **Montana: Trump**
+48. **South Dakota: Trump**
+49. **North Dakota: Trump**
+50. **Alaska: Trump**
+51. **Wyoming: Trump**

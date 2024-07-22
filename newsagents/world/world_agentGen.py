@@ -81,6 +81,8 @@ July 13, 2024: At 6:11 p.m., former President Donald Trump was shot by an Americ
 July 14, 2024: Elon Musk expressed his full support for Trump and wished him a speedy recovery.
 
 July 15, 2024: U.S. House Speaker Mike Johnson, a Republican, officially announced at the Republican National Convention the nomination of Donald Trumpas the Republican candidates for President.
+
+July 21, 2024: Biden announced his withdrawal from the 2024 presidential race, endorsing Vice President Kamala Harris as the Democratic nominee. Harris praised Biden's decision as "selfless and patriotic," vowing to defeat Trump. Within the Democratic Party, Bill and Hillary Clinton expressed their support for Harris, while Obama withheld his endorsement, and Nancy Pelosi was reluctant to see Harris automatically succeed Biden. Trump stated that Harris would be easier to defeat than Biden.
     """,
     publisher_id="publisher_3",
     category=NewsCategory.POLITICAL,
@@ -88,7 +90,7 @@ July 15, 2024: U.S. House Speaker Mike Johnson, a Republican, officially announc
 
 )
 
-new4 = NewsObject(
+news4 = NewsObject(
     id="news_4",
     title="Japan dumps nuclear waste into Pacific Ocean",
     content="""August 24, 2023: The Japanese government decided to begin discharging treated radioactive wastewater from the Fukushima Daiichi Nuclear Power Plant into the Pacific Ocean. This wastewater, exceeding one million tons, had been contaminated with radioactive nuclides. Under the approval of the Japanese government and the supervision of the International Atomic Energy Agency (IAEA), the radioactive water is being filtered and diluted before gradually being released into the ocean. The entire discharge plan is expected to span at least 30 years.
@@ -104,7 +106,7 @@ Post-Discharge Monitoring: After the discharge began on August 24, 2023, the IAE
 International Reactions: The discharge of radioactive wastewater has sparked a range of international responses.
     """,
     publisher_id="publisher_4",
-    category=NewsCategory.SOCIAL,
+    category=NewsCategory.ENVIRONMENT,
     publish_time="2023-08-24"
 
 )
@@ -112,7 +114,7 @@ International Reactions: The discharge of radioactive wastewater has sparked a r
 category, country = news_classifier.run(news3.content, news3.category)
 sleep(0.5)
 agents = agents_builder.run(category, country)
-
+print(agents)
 agent_states = create_agent_states(agents)
 
 # 创建代理并运行他们的 think_n_do 函数

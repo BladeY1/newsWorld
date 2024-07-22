@@ -8,7 +8,7 @@ class NewsCategory(str, Enum):
     SPORTS = "Sports News"
     HEALTH = "Health News"
     ENTERTAINMENT = "Entertainment News"
-    ENVIRONMENT = "Environmental News"
+    ENVIRONMENT = "Environment News"
     POLITICAL = "Political News"
     ECONOMIC = "Economic News"
     SOCIAL = "Social News"

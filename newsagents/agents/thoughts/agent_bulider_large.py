@@ -3,6 +3,7 @@ import os
 import re
 import sys
 
+from time import sleep
 from typing import List, Optional
 from pydantic import BaseModel, Field
 from genworlds.agents.abstracts.thought import AbstractThought
@@ -56,23 +57,29 @@ class AgentsBuilderThought(AbstractThought):
             host_world_prompt = f"{category.value.split()[0]} Social Network"
             
             agent_data = {}
+            parsing_agents = False
             for line in lines:
+                line = line.strip()
                 if line.startswith("agent"):
+                    parsing_agents = True
                     if agent_data:
                         agent_data['host_world_prompt'] = host_world_prompt
                         agents.append(AgentBuilder(**agent_data))
                         agent_data = {}
-                if 'id:' in line:
-                    agent_data['id'] = line.split('id: ')[1].strip()
-                if 'name:' in line:
-                    agent_data['name'] = line.split('name: ')[1].strip()
-                if 'description:' in line:
-                    agent_data['description'] = line.split('description: ')[1].strip()
+                if parsing_agents:
+                    if 'id:' in line and 'id' not in agent_data:
+                        agent_data['id'] = line.split('id: ')[1].strip()
+                    elif 'name:' in line and 'name' not in agent_data:
+                        agent_data['name'] = line.split('name: ')[1].strip()
+                    elif 'description:' in line and 'description' not in agent_data:
+                        agent_data['description'] = line.split('description: ')[1].strip()
             if agent_data:
                 agent_data['host_world_prompt'] = host_world_prompt
                 agents.append(AgentBuilder(**agent_data))
-                
+            
+            print(agents)
             return agents
+
 
         world = get_world_for_category(category)
         if world is None:
@@ -150,6 +157,7 @@ class AgentsBuilderThought(AbstractThought):
                 print(f"Generated Agent: {agent}")
             
             all_agents.extend(agents)
+            sleep(0.5)
         # print("666",all_agents)
         return all_agents
     

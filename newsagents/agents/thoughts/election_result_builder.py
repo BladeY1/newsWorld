@@ -120,7 +120,7 @@ class ElectionResultBuilderThought(AbstractThought):
             1. Based on the news content, your current emotions and attitudes, and last election result in 2020, predict the outcome of the 2024 US election for the state you represent;
             2. Ensure all responses adhere to this template, Choose one of (Trump/Biden) based on the contextual input.
             3. Your responses must follow this template:
-                selection: {(Trump/Biden)}
+                selection: {(Trump/Harris)}
                 reason: {reason}
             """
         }

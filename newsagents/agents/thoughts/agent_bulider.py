@@ -112,7 +112,7 @@ class AgentBuilderThought(AbstractThought):
         input_context = {
             "category": category,
             "country": country,
-            "documents": level2_data,
+            "documents": level3_data,
             "footer": """
                 1. Based on the category and country of the news and the relevant groups of the news, select all groups in a certain level of the relevant groups to fill in the agent template;
                 2. Answers must follow the following format:

@@ -33,7 +33,7 @@ class NewsClassifierThought(AbstractThought):
         )
         self.logger = LoggingFile.get_logger(self.__class__.__name__)
 
-    def run(self, news_content, news_category: NewsCategory):
+    def run(self, news_content, newsCategory: NewsCategory):
         class NewsClassifier(BaseModel):
             """A model for classifying news articles including their category and country of origin."""
             category: NewsCategory = Field(..., description="The category of the news article")
@@ -43,7 +43,7 @@ class NewsClassifierThought(AbstractThought):
 
         def extract_news_metadata(news_text):
             if not news_text.strip():  # Check if news_text is empty or contains only whitespace
-                return {"category": news_category, "country": "US"}
+                return {"category": newsCategory, "country": "US"}
     
             # Extracting the relevant parts from the given text
             category_line = [line for line in news_text.split('\n') if line.startswith('category:')][0]
@@ -80,12 +80,13 @@ class NewsClassifierThought(AbstractThought):
             "news_category": news_categories,
             "footer": """
                 1. Based on the news content and news categories, analyze and infer which category the news belongs to and which country it is from, the category must appear in the context;
-                2. Answers must follow the following format:
+                2. Ensure all answers adhere to this template;
+                3. Answers must follow the following template:
                     category: {news category}
                     country: {country abbreviation}
                     title: {news title}
                     keywords: {keywords}
-                3. Ensure all answers adhere to this template
+                
                 """
         } 
 

@@ -1,0 +1,838 @@
+2024-07-17 12:13:53,969 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Biden to win the election
+2024-07-17 12:14:04,108 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 12:14:25,276 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 12:15:06,730 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 12:17:06,711 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:18:05,475 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 12:18:05,670 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 12:19:06,294 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:19:07,418 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 12:20:06,269 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 12:20:07,336 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Trump to win the election
+2024-07-17 12:20:07,696 - AgentPredictsResultsAction - INFO - Agent Arizona-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:21:05,608 - AgentPredictsResultsAction - INFO - Agent Massachusetts-agent predicts Biden to win the election
+2024-07-17 12:21:06,041 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Trump to win the election
+2024-07-17 12:21:06,888 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 12:21:06,935 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 12:21:07,096 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 12:21:07,163 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:21:07,302 - AgentPredictsResultsAction - INFO - Agent Colorado-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:21:07,779 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Biden to win the election
+2024-07-17 12:21:08,117 - AgentPredictsResultsAction - INFO - Agent South Carolina-agent predicts Trump to win the election
+2024-07-17 12:21:08,336 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 12:21:08,402 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:21:08,617 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:21:09,389 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 12:22:05,540 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 12:22:06,119 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 12:22:06,766 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Trump to win the election
+2024-07-17 12:22:06,929 - AgentPredictsResultsAction - INFO - Agent Mississippi-agent predicts Trump to win the election
+2024-07-17 12:22:08,395 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 12:23:05,468 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 12:23:05,503 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 12:23:07,044 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Trump to win the election
+2024-07-17 12:23:07,069 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 12:23:07,175 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 12:24:06,420 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:24:07,431 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 12:24:07,496 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 12:24:07,568 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 12:24:07,576 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 12:24:07,848 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 12:26:41,895 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 12:26:42,200 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 12:26:42,641 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 12:26:43,855 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 12:26:53,694 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:26:54,445 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:27:02,801 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 12:27:03,549 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 12:27:05,260 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 12:27:06,104 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:27:08,276 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 12:27:10,194 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 12:27:40,525 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 12:28:52,821 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Trump to win the election
+2024-07-17 12:28:54,004 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 12:28:54,050 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Trump to win the election
+2024-07-17 12:28:54,083 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 12:28:54,364 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Trump to win the election
+2024-07-17 12:32:06,365 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 12:32:06,433 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 12:32:06,538 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 12:32:06,858 - AgentPredictsResultsAction - INFO - Agent Arizona-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:32:07,147 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Biden to win the election
+2024-07-17 12:32:07,405 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Trump to win the election
+2024-07-17 12:32:07,978 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 12:32:08,054 - AgentPredictsResultsAction - INFO - Agent Massachusetts-agent predicts Biden to win the election
+2024-07-17 12:32:08,090 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:32:08,151 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:32:08,496 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:32:08,509 - AgentPredictsResultsAction - INFO - Agent Colorado-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:32:08,580 - AgentPredictsResultsAction - INFO - Agent South Carolina-agent predicts Trump to win the election
+2024-07-17 12:32:08,654 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:32:08,746 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 12:32:12,139 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 12:33:05,460 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 12:33:05,759 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Trump to win the election
+2024-07-17 12:33:05,835 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Biden to win the election
+2024-07-17 12:33:05,853 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:34:05,596 - AgentPredictsResultsAction - INFO - Agent Mississippi-agent predicts Trump to win the election
+2024-07-17 12:35:05,441 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Trump to win the election
+2024-07-17 12:35:05,473 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 12:35:06,042 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 12:35:06,337 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 12:36:06,374 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:36:06,728 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 12:36:06,842 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 12:36:06,898 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 12:36:07,147 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 12:36:08,729 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:38:08,231 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 12:38:09,815 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:38:09,830 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 12:39:05,710 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 12:41:06,021 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:41:06,078 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:41:06,235 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 12:41:07,010 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 12:41:07,221 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:41:07,775 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 12:41:07,788 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 12:44:05,469 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 12:45:07,776 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:45:08,045 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 12:45:10,711 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:45:10,773 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 12:45:10,816 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:46:05,621 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 12:46:06,049 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:47:07,016 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:48:05,491 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:50:06,510 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 12:50:06,605 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:50:06,753 - AgentPredictsResultsAction - INFO - Agent Colorado-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:51:05,452 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 12:51:05,555 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:52:05,430 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:52:06,031 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 12:52:06,556 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 12:53:07,463 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 12:53:08,381 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:53:08,470 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 12:53:08,560 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 12:53:08,757 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 12:53:09,006 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:53:09,121 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 12:53:09,282 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 12:53:09,343 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 12:53:09,726 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 12:53:11,183 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:53:21,457 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 12:53:52,260 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 12:54:15,528 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 12:54:16,385 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 12:54:23,555 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:54:24,459 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:54:36,230 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 12:54:37,148 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 12:54:37,850 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 12:54:41,436 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 12:55:49,381 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 12:56:11,268 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 12:56:23,396 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:56:30,331 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:56:31,600 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 12:56:32,862 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 12:56:49,797 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:57:03,508 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 12:57:22,359 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 12:57:31,412 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:57:32,742 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:57:35,841 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:57:37,065 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 12:57:44,110 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 12:57:53,224 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:57:56,486 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 12:58:01,517 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:58:02,745 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 12:58:05,664 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:58:08,193 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election
+2024-07-17 12:58:09,532 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 12:58:41,859 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 12:58:42,196 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 12:58:42,435 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 12:58:42,601 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 13:00:08,681 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 13:01:06,002 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:02:07,103 - AgentPredictsResultsAction - INFO - Agent South Carolina-agent predicts Trump to win the election
+2024-07-17 13:03:05,481 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:03:05,495 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:03:05,955 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:03:06,631 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:04:06,095 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 13:04:07,026 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:04:07,282 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 13:04:08,747 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:04:09,744 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:04:09,782 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 13:06:08,103 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:08:06,696 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 13:08:08,459 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 13:09:05,736 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:09:05,737 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 13:10:05,905 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:11:05,458 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:12:05,451 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 13:12:05,474 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Biden to win the election
+2024-07-17 13:12:07,822 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:12:07,926 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:13:05,816 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:13:06,161 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:15:06,051 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 13:15:06,094 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 13:15:06,305 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Trump to win the election
+2024-07-17 13:15:06,408 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:15:06,415 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 13:15:07,919 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:15:10,113 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 13:15:10,416 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:15:11,287 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 13:16:05,570 - AgentPredictsResultsAction - INFO - Agent Arizona-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:17:06,989 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Trump to win the election
+2024-07-17 13:17:07,386 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:17:07,734 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 13:19:05,511 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:19:05,561 - AgentPredictsResultsAction - INFO - Agent Colorado-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:20:06,909 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:22:06,073 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 13:22:06,235 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:22:06,618 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:22:07,073 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:22:07,971 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:22:08,182 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 13:22:08,207 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 13:22:08,499 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:22:09,001 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 13:22:09,007 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:23:05,516 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 13:25:05,463 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 13:25:06,159 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:25:15,320 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 13:25:16,149 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 13:25:18,340 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:25:18,535 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 13:25:18,601 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:25:18,848 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 13:25:24,562 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:25:40,093 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 13:25:42,739 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:25:43,444 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:25:46,479 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 13:26:03,137 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 13:26:06,470 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:26:13,838 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:26:16,479 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 13:26:38,331 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Trump to win the election
+2024-07-17 13:26:45,353 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:26:47,159 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:26:52,877 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:26:55,291 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:27:56,781 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 13:28:10,733 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:28:21,852 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:28:23,068 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 13:28:40,662 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:28:42,398 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:28:43,780 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:28:49,047 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 13:28:50,449 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 13:28:59,661 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:29:02,606 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 13:29:07,906 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:30:13,305 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:30:14,772 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 13:30:41,992 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 13:30:56,175 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:30:57,396 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 13:31:00,614 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 13:31:01,968 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:31:18,115 - AgentPredictsResultsAction - INFO - Agent South Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:31:26,658 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:31:47,939 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Biden to win the election
+2024-07-17 13:31:49,297 - AgentPredictsResultsAction - INFO - Agent Arizona-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:31:52,401 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 13:31:53,755 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:32:02,596 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:32:07,848 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 13:32:13,969 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 13:32:19,895 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:32:21,141 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:32:22,534 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election
+2024-07-17 13:32:23,765 - AgentPredictsResultsAction - INFO - Agent Mississippi-agent predicts Trump to win the election
+2024-07-17 13:32:47,967 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Trump to win the election
+2024-07-17 13:32:50,960 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 13:32:52,346 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 13:32:53,553 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:33:03,160 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:33:55,384 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:34:19,087 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:34:32,476 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:34:42,603 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:34:43,899 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:34:45,052 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 13:35:03,182 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:35:04,493 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:35:10,315 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 13:35:13,175 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 13:35:14,430 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Trump to win the election
+2024-07-17 13:35:21,447 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 13:35:24,402 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:35:29,720 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:35:43,719 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Trump to win the election
+2024-07-17 13:35:47,182 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 13:36:33,459 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:36:34,793 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:36:58,999 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 13:37:09,328 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:37:15,883 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 13:37:17,340 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:37:41,334 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 13:37:42,705 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:38:06,208 - AgentPredictsResultsAction - INFO - Agent Arizona-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:38:07,508 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:38:09,323 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:38:12,475 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:38:21,163 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:38:32,293 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 13:38:37,748 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:38:39,146 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:38:39,895 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 13:38:41,766 - AgentPredictsResultsAction - INFO - Agent Mississippi-agent predicts Trump to win the election
+2024-07-17 13:39:04,014 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 13:39:07,089 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 13:39:08,463 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 13:39:09,689 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:40:09,443 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:40:35,015 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:40:36,160 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 13:40:58,327 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:41:00,035 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 13:41:18,822 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Biden to win the election
+2024-07-17 13:41:21,919 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:41:34,002 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 13:41:35,293 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 13:41:42,705 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 13:41:45,663 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 13:41:51,292 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:42:04,421 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Trump to win the election
+2024-07-17 13:42:23,031 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 13:42:57,957 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:42:59,423 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:43:13,651 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:43:26,655 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:43:29,606 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 13:43:34,263 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 13:43:40,390 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:43:46,375 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 13:43:47,758 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:44:03,024 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Biden to win the election
+2024-07-17 13:44:08,631 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 13:44:09,776 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:44:34,218 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:44:35,507 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:44:36,834 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:44:49,846 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:45:08,231 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:45:09,071 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Trump to win the election
+2024-07-17 13:45:10,871 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 13:45:37,567 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 13:45:40,493 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Biden to win the election
+2024-07-17 13:45:41,776 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 13:45:42,970 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:46:34,865 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 13:46:36,144 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:47:02,880 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 13:47:22,527 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:47:23,286 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 13:47:29,358 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:47:43,263 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:47:54,524 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 13:47:55,772 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 13:48:02,562 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 13:48:05,481 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:48:11,357 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:48:25,314 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:49:03,186 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:49:16,756 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:49:18,243 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:49:41,509 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:49:44,506 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:49:48,779 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 13:49:54,476 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:49:58,422 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Trump to win the election
+2024-07-17 13:49:59,751 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:50:20,202 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Biden to win the election
+2024-07-17 13:50:27,964 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:50:52,932 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 13:50:54,064 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:51:07,543 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:51:24,117 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:51:25,505 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:51:26,903 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 13:51:49,215 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Trump to win the election
+2024-07-17 13:51:52,644 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 13:51:54,013 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 13:51:55,224 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:52:12,823 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 13:52:21,670 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 13:52:48,972 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:53:15,274 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 13:53:16,585 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:53:38,403 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:53:39,566 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 13:53:59,146 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 13:54:09,594 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 13:54:10,906 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 13:54:19,373 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:54:22,293 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 13:54:28,235 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 13:55:10,465 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Trump to win the election
+2024-07-17 13:55:17,176 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 13:55:21,877 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:55:34,910 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 13:55:36,102 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:55:52,526 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Biden to win the election
+2024-07-17 13:55:58,902 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 13:56:00,594 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 13:56:11,091 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 13:56:35,378 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Trump to win the election
+2024-07-17 13:56:43,582 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 13:57:11,251 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:57:22,158 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 13:57:38,665 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 13:57:39,920 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:57:41,148 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election
+2024-07-17 13:58:08,969 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Trump to win the election
+2024-07-17 13:58:11,961 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:58:13,252 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 13:58:14,471 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 13:58:41,994 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 13:58:49,873 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 13:59:10,280 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 13:59:16,173 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 13:59:33,553 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:59:34,953 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:59:42,930 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:59:54,353 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 13:59:55,550 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:00:02,119 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:00:14,010 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:00:25,532 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:00:26,796 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:00:39,220 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:00:45,239 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:01:28,293 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 14:01:36,563 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 14:01:46,069 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:01:47,334 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Trump to win the election
+2024-07-17 14:02:11,831 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:02:15,046 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:02:16,026 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 14:02:26,827 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 14:02:58,045 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:03:24,376 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:03:35,533 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:03:53,464 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:03:54,765 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:03:56,176 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:04:18,906 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 14:04:21,996 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:04:23,301 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:04:24,516 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:04:55,714 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 14:05:28,029 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 14:05:47,675 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:05:49,056 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:05:57,005 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:06:08,984 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:06:10,266 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:06:15,862 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:06:17,018 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Trump to win the election
+2024-07-17 14:06:20,270 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:06:29,740 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:06:40,681 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:06:41,519 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:06:53,500 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 14:06:59,602 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:07:23,118 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:07:45,264 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 14:07:52,381 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 14:08:02,469 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:08:03,838 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 14:08:27,807 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:08:30,991 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:09:15,292 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:09:41,166 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:09:53,090 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:10:08,641 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:10:12,106 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:10:25,447 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 14:10:37,526 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Trump to win the election
+2024-07-17 14:10:40,528 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:10:41,892 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:10:43,096 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:10:54,609 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:11:04,033 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 14:11:16,245 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:11:38,686 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Trump to win the election
+2024-07-17 14:11:49,336 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 14:12:08,312 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:12:09,623 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Biden to win the election
+2024-07-17 14:12:28,200 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:12:29,359 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:12:36,053 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:12:37,323 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 14:12:39,118 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:12:48,772 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:12:59,876 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:13:01,136 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:13:10,780 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:13:16,662 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:13:43,487 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 14:13:48,107 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 14:14:07,644 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 14:14:14,612 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 14:14:24,268 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:14:52,270 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:14:53,482 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:15:22,134 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:15:37,252 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:16:04,473 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:16:14,607 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:16:27,971 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:16:30,288 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:16:57,561 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 14:17:00,385 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:17:01,599 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:17:02,812 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:17:12,993 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 14:17:34,783 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Trump to win the election
+2024-07-17 14:17:54,182 - AgentPredictsResultsAction - INFO - Agent South Carolina-agent predicts Trump to win the election
+2024-07-17 14:17:55,404 - AgentPredictsResultsAction - INFO - Agent Nevada-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:18:03,549 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 14:18:21,472 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:18:22,828 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:18:32,910 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:18:45,822 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:18:46,899 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:18:57,313 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 14:19:08,384 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:19:16,240 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:19:17,487 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:19:29,621 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:19:35,507 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:19:41,272 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:19:55,266 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 14:20:00,328 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 14:20:18,338 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 14:20:39,768 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:21:07,051 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:21:10,236 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:21:36,648 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:21:43,435 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:21:47,449 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 14:21:52,505 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:22:16,102 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:22:27,519 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:22:33,662 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 14:22:44,681 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:23:06,820 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 14:23:10,229 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 14:23:11,386 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:23:12,611 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:23:23,278 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:23:34,920 - AgentPredictsResultsAction - INFO - Agent Massachusetts-agent predicts Biden to win the election
+2024-07-17 14:23:49,724 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:24:42,793 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:25:05,081 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:25:06,314 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:25:13,526 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 14:25:24,540 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:25:32,872 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:25:34,124 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:25:45,890 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 14:25:51,946 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:26:16,179 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 14:26:37,464 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 14:26:55,598 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:27:17,071 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:27:19,522 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:27:42,685 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:27:57,396 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:28:02,449 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 14:28:07,108 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:28:32,390 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:28:35,706 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Biden to win the election
+2024-07-17 14:28:43,074 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:28:48,539 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 14:28:49,761 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:28:59,950 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election
+2024-07-17 14:29:09,456 - AgentPredictsResultsAction - INFO - Agent South Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:29:27,437 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Trump to win the election
+2024-07-17 14:29:30,258 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 14:29:31,695 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:29:32,966 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:29:43,798 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:30:59,900 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:31:03,628 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:31:20,828 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:31:22,099 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:31:27,300 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 14:31:41,245 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:31:50,549 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:31:51,603 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:32:02,986 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:32:08,889 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:32:35,834 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:32:50,003 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:32:57,977 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 14:33:12,009 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:33:24,487 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:33:36,077 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:33:38,198 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:34:03,030 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Biden to win the election
+2024-07-17 14:34:24,729 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:34:53,665 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:35:05,443 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:35:10,408 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 14:35:11,783 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:35:13,931 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:35:22,964 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:35:46,916 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 14:35:50,067 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:35:51,351 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:35:52,515 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:36:02,503 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:37:21,380 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:37:46,347 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:37:48,155 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:37:52,259 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:37:55,202 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 14:38:02,735 - AgentPredictsResultsAction - INFO - Agent Mississippi-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:38:05,470 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:38:13,193 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:38:14,492 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:38:25,761 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:38:31,680 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:38:42,046 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Biden to win the election
+2024-07-17 14:38:50,475 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 14:39:03,156 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:39:21,623 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 14:39:31,177 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:39:33,877 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 14:39:45,345 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:39:48,533 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:39:57,496 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:39:59,261 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:40:24,011 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:40:47,452 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:41:15,103 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:41:28,582 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:41:33,528 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 14:41:43,784 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:41:47,159 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:42:08,842 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 14:42:11,768 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:42:14,923 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:42:23,879 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 14:43:38,034 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:43:58,403 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:43:59,756 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:44:03,138 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:44:05,985 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 14:44:18,987 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:44:29,628 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:44:30,380 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Trump to win the election
+2024-07-17 14:44:42,297 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 14:44:46,796 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:45:11,525 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:45:24,696 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:45:46,117 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 14:45:54,776 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:46:11,055 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:46:19,348 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:46:22,369 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:46:37,784 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 14:46:47,794 - AgentPredictsResultsAction - INFO - Agent New Hampshire-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:47:00,675 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 14:47:08,406 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:47:12,059 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 14:47:27,800 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Trump to win the election
+2024-07-17 14:47:38,173 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:47:53,077 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:47:56,495 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 14:48:08,228 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:48:09,440 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:48:12,916 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 14:48:33,705 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 14:48:34,937 - AgentPredictsResultsAction - INFO - Agent Vermont-agent predicts Biden to win the election
+2024-07-17 14:48:37,819 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:48:40,025 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:48:50,178 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:48:51,564 - AgentPredictsResultsAction - INFO - Agent Virginia-agent predicts Biden to win the election
+2024-07-17 14:48:54,980 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:49:34,204 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:50:05,161 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:50:25,815 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:50:27,467 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:50:42,488 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:50:45,533 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:50:46,966 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:51:00,506 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 14:51:09,615 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:51:12,144 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:51:15,153 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:51:53,183 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:52:20,950 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:52:36,583 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Biden to win the election
+2024-07-17 14:52:45,049 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:52:48,046 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 14:53:04,748 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:53:26,632 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 14:53:30,021 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 14:53:31,384 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 14:53:47,483 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Trump to win the election
+2024-07-17 14:53:53,886 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:54:03,514 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 14:54:08,724 - AgentPredictsResultsAction - INFO - Agent Alabama-agent predicts Trump to win the election
+2024-07-17 14:54:16,090 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:54:20,241 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election
+2024-07-17 14:54:53,328 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Trump to win the election
+2024-07-17 14:54:55,465 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 14:55:05,929 - AgentPredictsResultsAction - INFO - Agent Wisconsin-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:55:12,517 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:55:31,731 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:55:53,577 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:56:22,953 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 14:56:45,813 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 14:56:47,038 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:56:48,241 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 14:57:02,381 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 14:57:06,281 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:57:07,921 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 14:57:09,194 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:57:19,287 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Trump to win the election
+2024-07-17 14:57:26,204 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 14:57:27,888 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:57:30,449 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 14:57:33,563 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 14:58:42,442 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 14:59:00,688 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:59:09,524 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 14:59:12,539 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 14:59:43,108 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Biden to win the election
+2024-07-17 14:59:45,234 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 14:59:47,362 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 14:59:48,947 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 15:00:04,643 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:00:12,730 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:00:14,093 - AgentPredictsResultsAction - INFO - Agent Colorado-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:00:28,003 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 15:00:42,128 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:00:43,417 - AgentPredictsResultsAction - INFO - Agent Ohio-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:00:48,853 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 15:01:21,252 - AgentPredictsResultsAction - INFO - Agent Pennsylvania-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:01:23,414 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 15:01:37,640 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:01:43,115 - AgentPredictsResultsAction - INFO - Agent Idaho-agent predicts Trump to win the election
+2024-07-17 15:01:56,975 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:01:58,198 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:02:17,139 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:02:21,292 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 15:02:41,743 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:03:06,151 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:03:07,414 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 15:03:23,695 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:03:27,680 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 15:03:28,565 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:03:38,122 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 15:03:48,933 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:03:54,859 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 15:05:01,490 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 15:05:18,322 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Biden to win the election
+2024-07-17 15:05:25,414 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 15:05:26,953 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:05:33,786 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 15:05:46,292 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 15:06:00,515 - AgentPredictsResultsAction - INFO - Agent New Jersey-agent predicts Trump to win the election
+2024-07-17 15:06:09,391 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 15:06:10,540 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 15:06:14,041 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 15:06:22,631 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:06:31,348 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:06:42,396 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 15:06:49,519 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 15:07:05,046 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election
+2024-07-17 15:07:37,320 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 15:08:12,905 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:08:29,023 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 15:08:34,388 - AgentPredictsResultsAction - INFO - Agent California-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:09:00,929 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 15:09:22,680 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:09:23,899 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 15:09:31,025 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 15:09:39,908 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:09:44,479 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Trump to win the election
+2024-07-17 15:09:45,740 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:09:57,485 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Biden to win the election
+2024-07-17 15:10:09,032 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Biden to win the election
+2024-07-17 15:10:13,169 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 15:11:07,350 - AgentPredictsResultsAction - INFO - Agent Wyoming-agent predicts Trump to win the election
+2024-07-17 15:11:08,625 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 15:11:15,276 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 15:11:31,260 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:11:46,197 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 15:12:05,383 - AgentPredictsResultsAction - INFO - Agent Connecticut-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:12:08,447 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 15:12:29,510 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 15:12:31,253 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 15:12:34,380 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:12:46,124 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Trump to win the election
+2024-07-17 15:12:52,287 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:12:55,169 - AgentPredictsResultsAction - INFO - Agent Minnesota-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:13:05,338 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 15:13:11,571 - AgentPredictsResultsAction - INFO - Agent Florida-agent predicts Trump to win the election
+2024-07-17 15:13:27,214 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Biden to win the election
+2024-07-17 15:13:58,379 - AgentPredictsResultsAction - INFO - Agent Alaska-agent predicts Trump to win the election
+2024-07-17 15:14:14,598 - AgentPredictsResultsAction - INFO - Agent Missouri-agent predicts Trump to win the election
+2024-07-17 15:14:24,288 - AgentPredictsResultsAction - INFO - Agent Maryland-agent predicts Biden to win the election
+2024-07-17 15:14:33,465 - AgentPredictsResultsAction - INFO - Agent Iowa-agent predicts Trump to win the election
+2024-07-17 15:14:45,940 - AgentPredictsResultsAction - INFO - Agent Delaware-agent predicts Biden to win the election
+2024-07-17 15:15:04,672 - AgentPredictsResultsAction - INFO - Agent Montana-agent predicts Trump to win the election
+2024-07-17 15:15:18,148 - AgentPredictsResultsAction - INFO - Agent Oklahoma-agent predicts Trump to win the election
+2024-07-17 15:15:43,336 - AgentPredictsResultsAction - INFO - Agent West Virginia-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:15:44,596 - AgentPredictsResultsAction - INFO - Agent Louisiana-agent predicts Trump to win the election
+2024-07-17 15:15:53,275 - AgentPredictsResultsAction - INFO - Agent Georgia-agent predicts Biden to win the election
+2024-07-17 15:16:03,032 - AgentPredictsResultsAction - INFO - Agent Rhode Island-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:16:07,420 - AgentPredictsResultsAction - INFO - Agent Kansas-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:16:08,738 - AgentPredictsResultsAction - INFO - Agent New Mexico-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:16:15,897 - AgentPredictsResultsAction - INFO - Agent Maine-agent predicts Trump to win the election
+2024-07-17 15:16:26,637 - AgentPredictsResultsAction - INFO - Agent Washington D.C.-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:16:28,309 - AgentPredictsResultsAction - INFO - Agent North Dakota-agent predicts Trump to win the election
+2024-07-17 15:16:31,304 - AgentPredictsResultsAction - INFO - Agent South Dakota-agent predicts Trump to win the election
+2024-07-17 15:16:58,848 - AgentPredictsResultsAction - INFO - Agent Kentucky-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:17:27,182 - AgentPredictsResultsAction - INFO - Agent Nebraska-agent predicts Trump to win the election
+2024-07-17 15:17:35,068 - AgentPredictsResultsAction - INFO - Agent Illinois-agent predicts Biden to win the election
+2024-07-17 15:17:51,114 - AgentPredictsResultsAction - INFO - Agent Washington-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:18:04,537 - AgentPredictsResultsAction - INFO - Agent North Carolina-agent predicts Trump to win the election
+2024-07-17 15:18:06,279 - AgentPredictsResultsAction - INFO - Agent Massachusetts-agent predicts Biden to win the election
+2024-07-17 15:18:24,089 - AgentPredictsResultsAction - INFO - Agent Arkansas-agent predicts Trump to win the election
+2024-07-17 15:18:46,578 - AgentPredictsResultsAction - INFO - Agent Texas-agent predicts Trump to win the election
+2024-07-17 15:18:47,941 - AgentPredictsResultsAction - INFO - Agent Indiana-agent predicts Trump to win the election
+2024-07-17 15:18:50,977 - AgentPredictsResultsAction - INFO - Agent Hawaii-agent predicts Biden to win the election
+2024-07-17 15:19:06,244 - AgentPredictsResultsAction - INFO - Agent Tennessee-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:19:13,165 - AgentPredictsResultsAction - INFO - Agent Oregon-agent predicts Selection result not found in the output text. to win the election
+2024-07-17 15:19:19,281 - AgentPredictsResultsAction - INFO - Agent Michigan-agent predicts Trump to win the election
+2024-07-17 15:19:28,128 - AgentPredictsResultsAction - INFO - Agent Utah-agent predicts Trump to win the election
+2024-07-17 15:19:45,937 - AgentPredictsResultsAction - INFO - Agent New York-agent predicts Trump to win the election

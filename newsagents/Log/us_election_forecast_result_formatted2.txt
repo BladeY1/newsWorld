@@ -1,0 +1,51 @@
+Alabama 阿拉巴马州 Trump
+Alaska 阿拉斯加州 Trump
+Arizona 亚利桑那州 中立
+Arkansas 阿肯色州 Trump
+California 加利福尼亚州 中立
+Colorado 科罗拉多州 中立
+Connecticut 康涅狄格州 中立
+Delaware 特拉华州 Biden
+Florida 佛罗里达州 Trump
+Georgia 乔治亚州 Biden
+Hawaii 夏威夷州 Biden
+Idaho 爱达荷州 Trump
+Illinois 伊利诺伊州 Biden
+Indiana 印第安纳州 Trump
+Iowa 爱荷华州 Trump
+Kansas 堪萨斯州 中立
+Kentucky 肯塔基州 中立
+Louisiana 路易斯安那州 Trump
+Maine 缅因州 Trump
+Maryland 马里兰州 Biden
+Massachusetts 马萨诸塞州 Biden
+Michigan 密歇根州 Trump
+Minnesota 明尼苏达州 中立
+Mississippi 密西西比州 中立
+Missouri 密苏里州 Trump
+Montana 蒙大拿州 Trump
+Nebraska 内布拉斯加州 Trump
+Nevada 内华达州 中立
+New Hampshire 新罕布什尔州 中立
+New Jersey 新泽西州 Trump
+New Mexico 新墨西哥州 中立
+New York 纽约州 Trump
+North Carolina 北卡罗来纳州 Trump
+North Dakota 北达科他州 Trump
+Ohio 俄亥俄州 中立
+Oklahoma 俄克拉何马州 Trump
+Oregon 俄勒冈州 中立
+Pennsylvania 宾夕法尼亚州 中立
+Rhode Island 罗德岛州 中立
+South Carolina 南卡罗来纳州 中立
+South Dakota 南达科他州 Trump
+Tennessee 田纳西州 中立
+Texas 德克萨斯州 Trump
+Utah 犹他州 Trump
+Vermont 佛蒙特州 Biden
+Virginia 弗吉尼亚州 Biden
+Washington 华盛顿州 中立
+West Virginia 西弗吉尼亚州 中立
+Wisconsin 威斯康星州 中立
+Wyoming 怀俄明州 Trump
+Washington D.C. 华盛顿特区 中立
