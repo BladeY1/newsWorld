@@ -66,7 +66,7 @@ class NewsNetworkAgent(AbstractAgent):
         actions.append(AgentCommentsOnNewsAction(host_object=self))
         actions.append(AgentFollowsNewsAction(host_object=self))
         actions.append(AgentSharesNewsAction(host_object=self))
-        actions.append(AgentPredictsResultsAction(host_object=self))
+        #actions.append(AgentPredictsResultsAction(host_object=self))
         
         super().__init__(name, id, description, state_manager, action_planner, host_world_prompt, actions)
 
